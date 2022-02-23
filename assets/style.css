@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d1e6f8;
+}
+header {
+    height: 100px;
+    padding: 10px;
+    font-family: sans-serif;
+    background-image: url(/Users/lexidorrity/Desktop/class-work/Homework/profile/assets/IMG_05202.jpeg);
+    color: whitesmoke;
+}
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+figure {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(/Users/lexidorrity/Desktop/class-work/Homework/profile/assets/IMG_05202.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content-boxes {
+    flex: 3;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 900px;
+    font-family: sans-serif;
+    background-color: tan;
+    color: #ffffff;
+ 
+}
+
+.content-boxes img {
+    max-height: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+section {
+    float:right;
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+ .project-boxes {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 525px;
+    margin:20px 25px 20px 25px;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: tan;
+    color: white;
+
+ }
+
+aside {
+    width: 100px;
+    display: flex;
+    flex :1;
+    border: 5px solid white
+    
+}
+
+.project-boxes-img {
+    max-height: 150px;
+    float: left;
+}
+.side-bar {
+    display: flex;
+    flex: 1;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    padding: 10px;
+    clear: both;
+    width: 100px;
+    height: 200%;
+    font-family: sans-serif;
+    background-color: #d1e6f8;
+}
+
+.side-bar dl {
+    line-height:400px;
+    margin-bottom: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px
+}
+
+
+ 
+
+
+ 
