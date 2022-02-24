@@ -11,7 +11,7 @@ header {
     height: 100px;
     padding: 10px;
     font-family: sans-serif;
-    background-image: url(/Users/lexidorrity/Desktop/class-work/Homework/profile/assets/IMG_05202.jpeg);
+    background-image: url("/assets/IMG_05202.jpeg");
     color: whitesmoke;
 }
 h1 {
@@ -36,13 +36,16 @@ nav ul li {
     margin-left: 25px;
 }
 
-figure {
+.top-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url(/Users/lexidorrity/Desktop/class-work/Homework/profile/assets/IMG_05202.jpeg);
     background-size: cover;
     background-position: center;
+    position: absolute;
+    top: 10px;
+    z-index: -1;
 }
 
 
@@ -53,15 +56,20 @@ a {
 main {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 300px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .content-boxes {
     flex: 3;
     margin-bottom: 20px;
     padding: 20px;
-    height: 300px;
+    height: 350px;
     width: 900px;
     font-family: sans-serif;
     background-color: tan;
@@ -92,7 +100,6 @@ h2 {
 section {
     float:right;
     display: flex;
-    flex: 3;
     flex-wrap: wrap;
     flex-direction: row;
   }
@@ -112,10 +119,7 @@ section {
  }
 
 aside {
-    width: 100px;
     display: flex;
-    flex :1;
-    border: 5px solid white
     
 }
 
@@ -128,22 +132,29 @@ aside {
     flex: 1;
     display: inline-block;
     flex-wrap: wrap;
-    margin-right: 20px;
-    padding: 10px;
-    clear: both;
-    width: 100px;
-    height: 200%;
     font-family: sans-serif;
-    background-color: #d1e6f8;
-}
-
-.side-bar dl {
-    line-height:400px;
+    /* background-color: #d1e6f8; */
+    line-height:470px;
     margin-bottom: 36px;
     color: #ffffff;
     text-align: center;
     font-size: 25px
+    
 }
+
+.contact {
+    font-size: 40px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 100px;
+    line-height: 2;
+}
+
+h3 p {
+    font-size: 20px;
+    Color: white;
+}
+
 
 
  
