@@ -3,22 +3,20 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: #d1e6f8;
 }
+/*Lines 10-51 are formating and styling for my header, nav bar and background image*/
 header {
     height: 100px;
     padding: 10px;
     font-family: sans-serif;
-    background-image: url("/assets/IMG_05202.jpeg");
     color: whitesmoke;
 }
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,34 +34,59 @@ nav ul li {
     margin-left: 25px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .top-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(/Users/lexidorrity/Desktop/class-work/Homework/profile/assets/IMG_05202.jpeg);
+    background-image: url(/assets/IMG_05202.jpeg);
     background-size: cover;
     background-position: center;
     position: absolute;
     top: 10px;
     z-index: -1;
 }
-
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+/*Lines 53-72 are styling and formating for my side bar aside*/
 main {
     display: flex;
     flex-direction: row;
     margin-top: 300px;
 }
+aside {
+    display: flex;   
+}
+.side-bar {
+    display: flex;
+    flex: 1;
+    display: inline-block;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    line-height:470px;
+    margin-bottom: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px 
+}
+/*Lines 74-115 are styling and formating for my "about me' and largest "project" boxes.*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
 .boxes {
     display: flex;
     flex-direction: column;
-
 }
+
+section {
+    float:right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
 .content-boxes {
     flex: 3;
@@ -75,7 +98,11 @@ main {
     font-size: 25px;
     background-color: tan;
     color: #ffffff;
- 
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .content-boxes img {
@@ -86,26 +113,8 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
-section {
-    float:right;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
- .project-boxes {
+/* Lines 117-156 are styling and formating for my smaller "project" boxes. */
+.project-boxes {
     display: flex;
     height: 300px;
     width: 525px;
@@ -114,31 +123,22 @@ section {
     font-family: sans-serif;
     background-color: tan;
     color: white;
-
  }
-
-aside {
-    display: flex;
-    
-}
 
 .project-boxes-img {
     max-height: 200px;
     float: left;
 }
-.side-bar {
+
+.project-box-text {
     display: flex;
-    flex: 1;
-    display: inline-block;
-    flex-wrap: wrap;
-    font-family: sans-serif;
-    /* background-color: #d1e6f8; */
-    line-height:470px;
-    margin-bottom: 36px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px
-    
+    flex-direction: column;
+}
+
+.box-text {
+    font-size: 30px;
+    float: left;
+    margin-left:10px;
 }
 
 .contact {
@@ -154,17 +154,7 @@ h3 p {
     Color: white;
 }
 
-.project-box-text {
-    display: flex;
-    flex-direction: column;
-}
-
-.box-text {
-    font-size: 30px;
-    float: left;
-    margin-left:10px;
-}
-
+/* Lines 158-172 are my media queries, making my website modify to fit different screen sizes. */
 @media screen and (max-width: 768px) {
     .media-screen {
       display: flex;
