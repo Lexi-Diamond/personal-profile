@@ -39,14 +39,14 @@ a {
     text-decoration: none;
 }
 .top-image {
-    height: 800px;
+    border-radius: 20px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(/assets/IMG_05202.jpeg);
+    background-image: url(/assets/IMG_0553.jpeg);
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 10px;
+    top: 0px;
     z-index: -1;
 }
 /*Lines 53-72 are styling and formating for my side bar aside*/
@@ -77,6 +77,7 @@ aside {
 }
 
 .boxes {
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -89,6 +90,7 @@ section {
   }
 
 .content-boxes {
+    border-radius: 20px;
     flex: 3;
     margin-bottom: 20px;
     padding: 20px;
@@ -96,7 +98,7 @@ section {
     width: 900px;
     font-family: sans-serif;
     font-size: 25px;
-    background-color: tan;
+    background: rgba(244, 247, 244, 0.1);
     color: #ffffff;
 }
 
@@ -106,6 +108,7 @@ section {
 }
 
 .content-boxes img {
+    border-radius: 20px;
     max-height: 300px;
 }
 
@@ -115,28 +118,30 @@ h2 {
 }
 /* Lines 117-156 are styling and formating for my smaller "project" boxes. */
 .project-boxes {
-    display: flex;
+    border-radius: 20px;
     height: 300px;
-    width: 525px;
+    width: 625px;
     margin:20px 25px 20px 25px;
     padding: 20px;
     font-family: sans-serif;
-    background-color: tan;
+    background: rgba(244, 247, 244, 0.1);
     color: white;
  }
 
 .project-boxes-img {
+    border-radius: 20px;
     max-height: 200px;
     float: left;
 }
 
 .project-box-text {
+    font-size: 15px;
     display: flex;
     flex-direction: column;
 }
 
 .box-text {
-    font-size: 30px;
+    font-size: 15px;
     float: left;
     margin-left:10px;
 }
