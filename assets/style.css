@@ -10,8 +10,9 @@ body {
 header {
     height: 100px;
     padding: 10px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: whitesmoke;
+    text-shadow: 5px 5px grey;
 }
 h1 {
     display: inline-block;
@@ -21,7 +22,7 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
 
@@ -63,7 +64,7 @@ aside {
     flex: 1;
     display: inline-block;
     flex-wrap: wrap;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height:470px;
     margin-bottom: 36px;
     color: #ffffff;
@@ -96,7 +97,7 @@ section {
     padding: 20px;
     height: 350px;
     width: 900px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     background: rgba(244, 247, 244, 0.1);
     color: #ffffff;
@@ -123,7 +124,7 @@ h2 {
     width: 625px;
     margin:20px 25px 20px 25px;
     padding: 20px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: rgba(244, 247, 244, 0.1);
     color: white;
  }
@@ -147,7 +148,8 @@ h2 {
 }
 
 .contact {
-    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
     color: white;
     margin-top: 25px;
     margin-left: 100px;
